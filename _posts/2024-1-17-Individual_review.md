@@ -17,4 +17,4 @@ courses: {csa: {week: 7}}
 ![image](https://github.com/Henerystone/repo/assets/96998793/d3f78e03-567a-41c7-9e8c-a3fd8cfe20ef)
 
 ### What I am passionate about this project:
-- This project is incredibly ambitious and daring. While I have participated in many projects, this one is the most ambitious and advanced of them all. This is because we are now 2 trimesters into CSA. since we have learnt many diffrent topics, it will be very fun and exiting to learn about more topics and use the topics we have learnt about in depth.
+- This project is incredibly ambitious and daring. While I have participated in many projects, this one is the most ambitious and advanced of them all. This is because we are now 2 trimesters into CSA. since we have learnt many diffrent topics, it will be very fun and exiting to learn about more topics and use the topics we have learnt about in depth. Although I was less productive last year, I am more prepared 
