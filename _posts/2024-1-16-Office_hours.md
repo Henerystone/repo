@@ -2,41 +2,34 @@
 toc: true
 comments: true
 layout: post
-title: Office Hours Hacks
+title: NATM
 type: hax
 courses: {csa: {week: 6}}
 ---
-### Topic:
-- This question is a test of your knowledge of traversing 2D arrays.
-- Traversing a 2D array involves visiting each element of the array in a systematic way, usually using nested loops to iterate over both rows and columns. The process ensures that you access and perform operations on every element within the 2D array.
-- In this example, The first set of nested for loops sets each element in board to “O”. The next for loop starts val at 0 and increments by 1 until val is 4, when val is 5 the loop terminates. When val is even, board is not updated, so nothing happens when val is 0.
-- When val is 1, row is assigned 1 and col is assigned 0. The boolean condition in the while loop is true, so board[1][0] is assigned “X”. Then col is incremented to 1 and row is decremented to 0 and board[0][1] is assigned “X”. Then col is incremented to 2 and row is decremented to -1 and the while loop terminates. When val is 2, nothing changes about board. When val is 3, row is assigned 3 and col is assigned 0.
-- The boolean condition in the while loop is true, so board[3][0] is assigned “X”. Then col is incremented to 1 and row is decremented to 2 and board[2][1] is assigned “X”. Then col is incremented to 2 and row is decremented to 1 and board[1][2] is assigned “X”. Then col is incremented to 3 and row is decremented to 0 and board[0][3] is assigned “X”. Finally, col is incremented to 4 and row is decremented to -1 and the while loop terminates. When val is 4, nothing changes about board.
+# N@TM BLOG
+- Hey fellow coding enthusiasts! I wanted to share my experience at the student coding convention held at the museum last night. It was a pretty cool scene, nothing like the movies, but definitely worth talking about.
 
-### Answer
-Option E is correct because it accurately reflects the end product of the board after the code is executed.
-The code fills the board with "O" initially, and then for each value of val from 0 to 4, it sets diagonal elements starting from the top right corner to "X" for even values of val. When val is odd, no changes are made to the board since the while loop condition fails immediately due to the decrement of col and row before the loop
-### Popcorn Hack
-Here is a similar example to the code with an intentional mistake for you to solve
-String[][] board = new String[5][5];
-for (int row = 0; row < 5; row++) {
-    for (int col = 0; col < 5; col++) {
-        board[row][col] = "O";
-    }
-}
-for (int val = 0; val < 5; val++) {
-    int row = val;
-    int col = 4;
-    while (col >= 0 && row >= 0) {
-        if (val % 2 == 0) {
-            board[row][col] = "X";
-        } else {
-            // Intentional mistake: This should be 'board[row][col] = "O";'
-            // Students need to identify and fix this line.
-            board[row][col] = "X"; // Incorrect assignment
-        }
-        col--;
-        row--;
-    }
-}
-The mistake is in the else block where it incorrectly assigns "X" instead of "O". Students should correct this to: board[row][col]="0"; in order to fix the code. The corrected code will alternate between "X" and "O" on the diagonals for each value of val
+- fPicture the museum, usually quiet at night, now buzzing with students proudly showcasing their coding projects. From innovative apps to intricate algorithms, each setup had its unique flair. Conversations echoed around coding languages, problem-solving approaches, and the sheer creativity involved.
+
+- There wasn't a sense of competition, just a laid-back vibe where everyone appreciated the hard work and dedication put into their projects. It was inspiring to witness a community so passionate about coding come together to celebrate their shared love for the craft.
+
+- The diversity of projects was mind-blowing. From machine learning experiments to practical web applications, each student brought their unique perspective to the coding world. It wasn't about outdoing each other; it was about sharing a common love for the art of coding.
+
+- As I walked through the exhibits, I couldn't help but feel inspired. The atmosphere wasn't about seeking fame or recognition; it was about a shared commitment to improvement and pushing the boundaries of what's possible with code.
+
+- If you ever get the chance to attend a similar coding event, don't pass it up. The experience was a reminder that coding isn't just a solitary endeavor – it's a collective journey of creativity and continuous learning. Who knew a night at the museum could be this intellectually invigorating?
+
+- Our team did extremely well during the N@TM since we were able to attract a sizable audience and got a lot of praise from other teams.
+![IMG_6864](https://github.com/CoolCodingPeople/place/assets/96998793/457c3d6a-7e93-4a57-a202-d58f0c7b438b)
+![img_6860_720](https://github.com/CoolCodingPeople/place/assets/96998793/2addf589-e983-44ae-a024-8d7b1ee3a11b)
+
+- We strengthened our team bonds and learnt to collaborate efficiently.
+- I would however, like to build more of a bond with my team since we were noly together for a short time and I might not even see them next trimester. The professionalism of my team has been imprinted onto me and I have learnt a lot of code via their guidance.
+
+- Some impressive projects that I saw were:
+- A miniature model: very efficient use of space, looks like a lot of effort was put into this project.
+![img_6855_720](https://github.com/CoolCodingPeople/place/assets/96998793/d89743b5-f79b-415a-bf2a-7cf00a1be8d4)
+- A cool plane model: a very impressive model, really cool.
+![img_6854](https://github.com/CoolCodingPeople/place/assets/96998793/11186116-9ea5-4328-a26a-22105431dd45)
+
+- All these models look very developed and built using extremely hard work, something that I hope to achieve some day.
