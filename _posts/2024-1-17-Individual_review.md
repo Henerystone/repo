@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: post
-title: sass
+title: individual review
 type: hax
 courses: {csa: {week: 7}}
 ---
