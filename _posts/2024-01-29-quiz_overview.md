@@ -1,11 +1,10 @@
 ---
 toc: true
-comments: false
+comments: true
 layout: post
-title: Quiz Overview
-description: Information about the quiz questions
-type: hacks
-courses: { csa: {week: 21} }
+title: N@TM blog 2
+type: hax
+courses: {csa: {week: 7}}
 ---
 
 ## 1. JWT Signup and/or Login Process:
