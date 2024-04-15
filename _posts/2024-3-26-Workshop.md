@@ -11,7 +11,7 @@ courses: {csa: {week: 8}}
 
 ## Question 2
 - A
-- In Java, a class is defined by its name, which should start with an uppercase letter. Inside the class, fields hold the object's data, constructors initialize objects, and methods define its behavior. Access modifiers like `public`, `private`, and `protected` control access to these members, ensuring encapsulation. Inheritance allows a class to inherit fields and methods from another class, while interfaces define a set of methods that a class must implement. Inner classes are classes defined within other classes, enabling logical grouping and access to outer class members. Together, these features organize the structure, behavior, and relationships within Java classes, promoting code reusability and maintainability.
+- A class is defined by its name, which should start with an uppercase letter. Fields hold the object's data, constructors initialize objects, and methods define its behavior. Access modifiers like `public`, `private`, and `protected` control access to these members, ensuring encapsulation. Inheritance allows a class to inherit fields and methods from another class, while interfaces define a set of methods that a class must implement. Inner classes are classes defined within other classes, enabling logical grouping and access to outer class members. Together, these features organize the structure, behavior, and relationships within Java classes, promoting code reusability and maintainability.
 
 - B
 ```
